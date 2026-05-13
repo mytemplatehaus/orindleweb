@@ -21,7 +21,7 @@ export function Footer() {
               We help modern businesses scale by combining premium digital design with intelligent AI operations.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-neutral-400 hover:text-white hover:bg-white/5 hover:border-white/30 transition-all">
+              <a href="https://www.linkedin.com/company/orindle" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-neutral-400 hover:text-white hover:bg-white/5 hover:border-white/30 transition-all">
                 in
               </a>
               <a href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-neutral-400 hover:text-white hover:bg-white/5 hover:border-white/30 transition-all">
@@ -62,8 +62,8 @@ export function Footer() {
             &copy; {currentYear} ORINDLE. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <Link href="#" className="text-neutral-600 hover:text-neutral-400 text-sm transition-colors">Privacy Policy</Link>
-            <Link href="#" className="text-neutral-600 hover:text-neutral-400 text-sm transition-colors">Terms of Service</Link>
+            <Link href="/privacy-policy" className="text-neutral-600 hover:text-neutral-400 text-sm transition-colors">Privacy Policy</Link>
+            <Link href="/terms-of-service" className="text-neutral-600 hover:text-neutral-400 text-sm transition-colors">Terms of Service</Link>
           </div>
         </div>
 

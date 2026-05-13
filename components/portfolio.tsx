@@ -43,9 +43,6 @@ export function Portfolio() {
             </h2>
             <p className="text-neutral-400">Premium execution, measurable results.</p>
           </div>
-          <button className="text-sm font-medium border-b border-electric-blue text-electric-blue pb-1 hover:text-white hover:border-white transition-colors">
-            View All Projects
-          </button>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">

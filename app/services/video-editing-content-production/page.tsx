@@ -21,7 +21,7 @@ export default function VideoEditing() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 overflow-hidden border-b border-white/5">
+      <section className="relative pt-24 md:pt-32 pb-16 md:pb-24 overflow-hidden border-b border-white/5">
         <div className="absolute inset-0 bg-grid-white opacity-20 pointer-events-none" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-pink-500/10 blur-[120px] rounded-full pointer-events-none" />
         
@@ -72,7 +72,7 @@ export default function VideoEditing() {
       </section>
       
       {/* 1 Shoot -> 30 videos */}
-      <section className="py-24 bg-charcoal-800 border-b border-white/5">
+      <section className="py-16 md:py-24 bg-charcoal-800 border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-display text-white mb-6">Turn 1 podcast or shoot into 30 content pieces.</h2>
           <p className="text-neutral-400 max-w-2xl mx-auto mb-16">Stop struggling to record every day. We use content multipliers to give you a month of content from a single 2-hour recording session.</p>
@@ -112,7 +112,7 @@ export default function VideoEditing() {
       </section>
 
       {/* Editing features */}
-      <section className="py-24 bg-background border-b border-white/5 relative">
+      <section className="py-16 md:py-24 bg-background border-b border-white/5 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-display font-light text-white mb-6">What makes our edits premium?</h2>

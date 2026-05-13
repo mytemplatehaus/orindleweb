@@ -69,7 +69,7 @@ export function Navbar() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
-          className="fixed top-[72px] inset-x-0 bottom-0 bg-charcoal-800/95 backdrop-blur-3xl p-6 flex flex-col gap-4 md:hidden border-t border-white/10 overflow-y-auto"
+          className="absolute top-full inset-x-0 h-screen bg-charcoal-800/95 backdrop-blur-3xl p-6 flex flex-col gap-4 md:hidden border-t border-white/10 overflow-y-auto"
         >
           {links.map((link) => (
             <Link

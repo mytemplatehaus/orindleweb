@@ -21,7 +21,7 @@ export default function SocialMediaManagement() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 overflow-hidden border-b border-white/5">
+      <section className="relative pt-24 md:pt-32 pb-16 md:pb-24 overflow-hidden border-b border-white/5">
         <div className="absolute inset-0 bg-grid-white opacity-20 pointer-events-none" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-electric-purple/10 blur-[120px] rounded-full pointer-events-none" />
         
@@ -58,18 +58,18 @@ export default function SocialMediaManagement() {
                
                <div className="grid grid-cols-2 gap-4">
                  <div className="aspect-[4/5] bg-charcoal-700 rounded-lg relative overflow-hidden group">
-                   <Image src="https://picsum.photos/seed/reel1/400/500" alt="Reel" fill className="object-cover opacity-60 group-hover:opacity-100 transition-opacity" />
+                   <Image src="https://i.imgur.com/MCiG5m3.jpeg" alt="Reel" fill className="object-cover opacity-60 group-hover:opacity-100 transition-opacity" />
                    <div className="absolute inset-0 flex items-center justify-center">
                      <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">▶</div>
                    </div>
                  </div>
                  <div className="aspect-[4/5] bg-charcoal-700 rounded-lg relative overflow-hidden group">
-                   <Image src="https://picsum.photos/seed/reel2/400/500" alt="Post" fill className="object-cover opacity-60 group-hover:opacity-100 transition-opacity" />
+                   <Image src="https://i.imgur.com/uLoKDNG.jpeg" alt="Post" fill className="object-cover opacity-60 group-hover:opacity-100 transition-opacity" />
                  </div>
                </div>
             </div>
             
-            <div className="absolute -bottom-10 -left-10 z-20 glass-card p-4 rounded-xl border border-white/10 bg-charcoal-700/90 shadow-xl flex items-center gap-4">
+            <div className="absolute -bottom-10 -left-10 z-20 glass-card p-4 rounded-xl border border-white/10 bg-charcoal-700/90 shadow-xl hidden md:flex items-center gap-4">
               <div className="flex -space-x-2">
                  <div className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-xs">💬</div>
                  <div className="w-8 h-8 rounded-full bg-red-500 flex items-center justify-center text-xs">❤️</div>
@@ -82,7 +82,7 @@ export default function SocialMediaManagement() {
       </section>
       
       {/* Pain Points */}
-      <section className="py-24 bg-charcoal-800 border-b border-white/5">
+      <section className="py-16 md:py-24 bg-charcoal-800 border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-display text-white mb-4">Are you losing leads to your competitors?</h2>
@@ -101,7 +101,7 @@ export default function SocialMediaManagement() {
       </section>
 
       {/* What we do */}
-      <section className="py-24 bg-background border-b border-white/5 relative">
+      <section className="py-16 md:py-24 bg-background border-b border-white/5 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row gap-16 items-center">
             <div className="md:w-1/2">

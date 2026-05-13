@@ -20,7 +20,7 @@ export default function DigitalMarketing() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 overflow-hidden border-b border-white/5">
+      <section className="relative pt-24 md:pt-32 pb-16 md:pb-24 overflow-hidden border-b border-white/5">
         <div className="absolute inset-0 bg-grid-white opacity-20 pointer-events-none" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-green-500/10 blur-[120px] rounded-full pointer-events-none" />
         
@@ -61,7 +61,7 @@ export default function DigitalMarketing() {
       </section>
       
       {/* Where are your leads leaking? */}
-      <section className="py-24 bg-charcoal-800 border-b border-white/5">
+      <section className="py-16 md:py-24 bg-charcoal-800 border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-display text-white mb-4">Where are your leads leaking?</h2>
@@ -94,7 +94,7 @@ export default function DigitalMarketing() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-24 bg-background border-b border-white/5 relative">
+      <section className="py-16 md:py-24 bg-background border-b border-white/5 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-display font-light text-white mb-6">Growth Channels We Master</h2>
